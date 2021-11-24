@@ -1,0 +1,378 @@
+@media (min-width:768px){
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.navbar{
+    margin: 0;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+ .info {
+    width:100%;
+    padding:  10px;
+    background-color: black;
+}
+.navbar .info  li{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+.navbar .care{
+    background-color:#f9f9f9;
+    width: 100%;
+}
+.navbar .care li{
+    color:#7B858A;
+    float: right;
+    display:inline;
+    font-size: 13px;
+    padding: 4px;
+    margin-right: 30px;
+    position: relative;
+}
+.navbar .care li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 30px;
+}
+.phone-icon{
+    margin-left: -18px;
+    position: absolute;
+}
+.care li a:hover{
+    color: #E55625;
+}
+.search-bar{
+    height: 63px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 26px;
+    justify-content: center;
+}
+.main{
+    width: 50%;
+  }
+  .main input,button{
+    width:59%;
+    border:transparent;
+    font-size: 18px;
+    padding:8px;
+    background-color:#f9f9f9;
+    color:white;
+    margin-left: 99px;
+  }
+  .main input:hover{
+    opacity: .8;
+  }
+  .main .search-button{
+    width:14%;
+    background-color: #E55625;
+    color:white;
+    margin-left: -10px;
+   
+  }
+  .cart button{
+    border-radius: 23px;
+    width: 20px;
+    height: 20px;
+    background-color: #E55625;
+    position: absolute;
+    padding: 0;
+    font-size: 10px;
+    margin-left: -5px;
+  }
+  .menu-bar {
+      width: 82%;
+      margin-left: 128px;
+      position: sticky;
+      top: 0;
+  }
+  .menu-bar ul{
+      width: 100%;
+      background: #7BAE23;
+      padding:8px;
+      z-index: 2;
+  }
+  .menu-bar ul li{
+      display: inline;
+      padding: 11px;
+  }
+  .menu-bar ul li a{
+      color: white;
+      text-transform: capitalize;
+      font-size: 14px;
+      text-decoration: none;
+  }
+ 
+.sub-container{
+    width: 83%;
+    display: flex;
+    flex-direction: row;
+    height: 425px;
+    margin-top: 31px;
+    margin-left: 128px;
+}
+.meat{
+    margin-top: 15px;
+}
+.about-delivery{
+    width: 83%;
+    height: 91px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 128px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+.about-delivery h3{
+    color: #465157;
+}
+.about-delivery p{
+  color: #839199;
+}
+.charges{
+    width: 31%;
+    height: 90px;
+    display: flex;
+    flex-direction:row;
+}
+ .delivery-van img {
+    width: 59px;
+    height: 49px;
+    margin-top: 21px;
+}
+.delivery-van{
+    margin-right: 15px;
+}
+.about-charges h3{
+    margin:0;
+}
+.cash{
+    width: 24%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rupees{
+    margin-top: 19px;
+    margin-right: 15px;
+}
+.rupees button{
+    width: 34px;
+    height: 32px;
+    border-radius: 50px;
+    padding: 0;
+    border: 2px solid #7BAE23;
+    margin-left: 0;
+    background-color:transparent;
+    color: #7BAE23;
+}
+.online-support{
+    width: 22%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.contact-us{
+    margin-top: 22px;
+    margin-right: 15px;
+}
+.slide-bar .fas{
+    display: none;
+}
+.cart-2{
+    display: none;
+}
+}
+@media (Max-width:768px){
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+    
+.navbar{
+    margin: 0;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+ }
+.info {
+    width:100%;
+    padding:  10px;
+    background-color: black;
+}
+.navbar .info  li{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+.navbar .care{
+    display: none;
+}
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.logo{
+    width: 128px;
+    margin-left: 22px;
+}
+.slide-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ .cart-2 button{
+    border-radius: 50px;
+    width: 14px;
+    height: 15px;
+    color: white;
+    background-color: #E55625;
+    position: absolute;
+    padding: 0;
+    font-size: 10px;
+    margin-left: -5px;
+}
+ .toy-gif{
+    display: none;
+}
+.cart{
+    display: none;
+ }
+ .main input,button{
+    width:90%;
+    border:transparent;
+    font-size: 18px;
+    padding:8px;
+    background-color:#f9f9f9;
+     color:white;
+    margin: 0 10px;
+ }
+.main input:hover{
+    opacity: .8;
+ }
+.main .search-button{
+    display: none;
+}
+.menu-bar{
+    display: none;
+}
+.sub-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 31px;
+}
+.changes{
+    width: 100%;
+    height:200px;
+}
+.changes img{
+    width: 100%;
+    height: 100%;
+}
+.abouts{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+}
+.meat{
+    width: 50%;
+    height: 100%;
+}
+.meat  img {
+    width: 100%;
+    height: 100%;
+}
+.bundles {
+    width: 50%;
+    height: 100%;
+}
+.bundles img{
+    width: 100%;
+    height: 100%;
+}
+.about-delivery{
+    width: 100%;
+    padding: 10px ;
+    /* height: 91px; */
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 128px; */
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+.about-delivery h3{
+    color: #465157;
+}
+.about-delivery p{
+  color: #839199;
+}
+.charges{
+    width: 100%;
+    /* height: 90px; */
+    display: flex;
+    flex-direction:row;
+    border-bottom: 5px white
+}
+ .delivery-van img {
+    width: 59px;
+    height: 49px;
+    /* margin-top: 21px; */
+}
+.delivery-van{
+    margin-right: 10px;
+}
+.about-charges h3{
+    margin:0;
+}
+.cash{
+    width: 100%;
+    /* height: 90px; */
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px white
+}
+
+.rupees{
+    /* margin-top: 19px; */
+    margin-right: 15px;
+}
+.rupees button{
+    width: 35px;
+    height: 32px;
+    border-radius: 50px;
+    padding: 0;
+    border: 2px solid #7BAE23;
+    margin-left: 0;
+    background-color:transparent;
+    color: #7BAE23;
+}
+.online-support{
+    width: 100%;
+    /* height: 90px; */
+    display: flex;
+    flex-direction: row;
+}
+.contact-us{
+    margin-top: 10px;
+    margin-right: 35px;
+}
+}
